@@ -2,10 +2,13 @@ import java.util.ArrayList;
 
 public class Barn {
 
-    private ArrayList<Animal> Animals = new ArrayList<>();
-
     // ArrayLista med class objektet Animal
 
+    private ArrayList<Animal> Animals = new ArrayList<>();
+
+
+
+    // Konstruktorn lägger till djuren i arraylistan Animals
     public Barn(){
 
         Animals.add(new Cow("Rose"));

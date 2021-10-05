@@ -1,7 +1,7 @@
 public class Animal {
     private String name;
 
-    // Konstruktor
+    // konstruktorn där initierar name
 
     public Animal(String name) {
         this.name = name;

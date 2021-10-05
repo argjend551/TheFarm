@@ -4,7 +4,7 @@ public class Cow extends Animal{
     // totala mjölken som fåret har
     int totalMilk = 30;
 
-    // konstruktorn
+    // konstruktorn där initierar name
     public Cow(String name) {
         super(name);
     }
